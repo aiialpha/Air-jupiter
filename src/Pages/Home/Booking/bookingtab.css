@@ -1,0 +1,11 @@
+.tab-container{
+    background-color: white;
+    padding-block: 10px;
+    height: 400px;
+    width: 90%;
+}
+.tab-container .nav-link{
+    color: #1b1b1be0;
+    font-size: 1.05rem;
+    font-weight: bold;
+}
