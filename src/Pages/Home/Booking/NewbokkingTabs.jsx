@@ -16,7 +16,8 @@ export default function NewbokkingTabs() {
       variant='pills'
     >
       <Tab eventKey="book" title="Booking">
-        Tab content for Home
+        <input type="text" />
+        test 
       </Tab>
       <Tab eventKey="manage" title="Manage booking">
         Tab content for Profile

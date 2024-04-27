@@ -34,11 +34,19 @@ header nav{
 }
 .navlist li{
     position: relative;
+    width: 100%;
 }
 .navlist a {
     color: white;
+    font-weight: bold;
+    display: inline-flex;
+    justify-content: center;
+    width: 100%;
     text-decoration: none;
     padding: 20px 15px;
+}
+.something{
+    width: 10%;
 }
 .hide-desktop{
     display: none;
@@ -55,4 +63,29 @@ header nav{
 }
 .navlist a.active{
     color: red;
+}
+@media (width < 768px){
+    .navlist{
+        position: absolute;
+        background-color: var(--light-blue);
+        top: 3.95em;
+        width: 60%;
+        right: 0;
+        display: none;
+    }
+    .navlist.open{
+        display: block;
+    }
+    .something{
+        display: none;
+    }
+    .header-logo{
+        width: 30%;
+        margin-left: 5px;
+    }
+    .hide-desktop{
+        display: block;
+        margin-right: 8px; 
+    }
+   
 }

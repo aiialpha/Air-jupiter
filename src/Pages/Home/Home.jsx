@@ -2,6 +2,7 @@ import React from 'react'
 import './Home.css'
 import hero from '../../Assets/hero.jpg'
 import BookingTabs from './Booking/NewbokkingTabs'
+import Destinations from './Destinations'
 
 export default function Home() {
   return (
@@ -12,7 +13,11 @@ export default function Home() {
         <div className="overlay">
           <BookingTabs />  
         </div>
+        
      </div>
+     <div className="destinations">
+          <Destinations />
+        </div>
     </>
   )
 }

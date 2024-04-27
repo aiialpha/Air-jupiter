@@ -48,6 +48,9 @@ export default function Header() {
                 </li>
             </ul>
         </nav>
+        <div className="something">
+            placeholder
+        </div>
         <div className="hide-desktop">
             <button onClick={handleClick}>
             <i className={`bx bx-${isOpen ? 'x': 'menu'}`}></i>
